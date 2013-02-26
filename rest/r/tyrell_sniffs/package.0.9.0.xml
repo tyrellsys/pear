@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Tyrell_Sniffs</name>
+ <channel>pear.tyrellsys.com</channel>
+ <summary>Tyrell codesniffer</summary>
+ <description>a standard style for Tyrellsys.com</description>
+ <lead>
+  <name>Kazuhiko Hotta</name>
+  <user>kaz</user>
+  <email>k-hotta@tyrellsys.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2013-02-26</date>
+ <time>07:42:56</time>
+ <version>
+  <release>0.9.0</release>
+  <api>0.9.0</api>
+ </version>
+ <stability>
+  <release>alpha</release>
+  <api>alpha</api>
+ </stability>
+ <license uri="http://www.php.net/license/">PHP</license>
+ <notes>
+it&apos;s alpha relase. we haven&apos;t reached any agreement of the coding styell which&apos;s gonna be used in here.
+ </notes>
+ <contents>
+  <dir baseinstalldir="PHP/CodeSniffer/Standards/Tyrell" name="/">
+   <file baseinstalldir="PHP/CodeSniffer/Standards/Tyrell" md5sum="6ecf6dac53fb552798bbc2cba34b4fb5" name="ruleset.xml" role="php" />
+   <file baseinstalldir="PHP/CodeSniffer/Standards/Tyrell" md5sum="5523b0b1da31bde0ad474027b18a8257" name="Sniffs/Commenting/FunctionCommentThrowTagSniff.php" role="php" />
+   <file baseinstalldir="PHP/CodeSniffer/Standards/Tyrell" md5sum="a51a714059e590d2587a2e823cc34e5f" name="Sniffs/Formatting/OneClassPerUseSniff.php" role="php" />
+   <file baseinstalldir="PHP/CodeSniffer/Standards/Tyrell" md5sum="20593d917da3a0e043c5caec3a1f9884" name="Sniffs/Formatting/UseInAlphabeticalOrderSniff.php" role="php" />
+   <file baseinstalldir="PHP/CodeSniffer/Standards/Tyrell" md5sum="100e9a523928f08a52ff9f6590ec8598" name="Sniffs/NamingConventions/ValidFunctionNameSniff.php" role="php" />
+   <file baseinstalldir="PHP/CodeSniffer/Standards/Tyrell" md5sum="796e16d44cd069fe6c055b513fbf16ef" name="Sniffs/NamingConventions/ValidNamespaceNameSniff.php" role="php" />
+   <file baseinstalldir="PHP/CodeSniffer/Standards/Tyrell" md5sum="ef117a2e0b3b0571c157c03aaa5ec11f" name="Sniffs/NamingConventions/ValidTraitNameSniff.php" role="php" />
+   <file baseinstalldir="PHP/CodeSniffer/Standards/Tyrell" md5sum="85b3a935f648efcfccafe870e62152f6" name="Sniffs/NamingConventions/ValidVariableNameSniff.php" role="php" />
+   <file baseinstalldir="PHP/CodeSniffer/Standards/Tyrell" md5sum="9b72ab441eddf89a136af6fc5dce533b" name="Sniffs/Strings/ConcatenationSpacingSniff.php" role="php" />
+   <file baseinstalldir="PHP/CodeSniffer/Standards/Tyrell" md5sum="edd4efc408a1000d4dfd33dcf29de8ba" name="Sniffs/WhiteSpace/FunctionClosingBraceSpaceSniff.php" role="php" />
+   <file baseinstalldir="PHP/CodeSniffer/Standards/Tyrell" md5sum="0ecfeeb435c89f54f1af41f7ff33a142" name="Sniffs/WhiteSpace/FunctionOpeningBraceSpaceSniff.php" role="php" />
+   <file baseinstalldir="PHP/CodeSniffer/Standards/Tyrell" md5sum="1030e12a49c271cfc730de1b7ff7457e" name="Sniffs/WhiteSpace/FunctionSpacingSniff.php" role="php" />
+   <file baseinstalldir="PHP/CodeSniffer/Standards/Tyrell" md5sum="d482c9f6b3329e7cf7680ba65ec46b9c" name="Sniffs/WhiteSpace/ObjectOperatorSpacingSniff.php" role="php" />
+   <file baseinstalldir="PHP/CodeSniffer/Standards/Tyrell" md5sum="3486c992e41bc1b852b03a15fb896785" name="Sniffs/WhiteSpace/OperatorSpacingSniff.php" role="php" />
+   <file baseinstalldir="PHP/CodeSniffer/Standards/Tyrell" md5sum="1e46d3c55959dc67b81337b52dbf912b" name="Sniffs/WhiteSpace/ScopeIndentSniff.php" role="php" />
+   <file baseinstalldir="PHP/CodeSniffer/Standards/Tyrell" md5sum="a94e73d848ba49a3ca4e19f4579a3907" name="Sniffs/WhiteSpace/TabAndSpaceSniff.php" role="php" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.0</min>
+   </pearinstaller>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>1.0</release>
+    <api>1.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2013-02-25</date>
+   <license uri="http://www.php.net/license/">PHP</license>
+   <notes>
+it&apos;s on purpose in-house use.
+   </notes>
+  </release>
+ </changelog>
+</package>
