@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <server>
-    <name>tyrellsys.github.com/pear</name>
+    <name>pear.tyrellsys.com</name>
     <summary>TyrellSystems PEAR channel</summary>
     <alias>tyrellsys</alias>
-    <url>http://tyrellsys.github.com/pear</url>
+    <url>http://pear.tyrellsys.com</url>
 </server>

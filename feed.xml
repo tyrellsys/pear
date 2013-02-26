@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://tyrellsys.github.com/pear</id>
-    <updated>2013-02-25T19:39:41+09:00</updated>
+    <id>http://pear.tyrellsys.com</id>
+    <updated>2013-02-26T16:20:36+09:00</updated>
     <title>TyrellSystems PEAR channel Latest Releases</title>
-    <link href="http://tyrellsys.github.com/pear/feed.xml" rel="self" />
+    <link href="http://pear.tyrellsys.com/feed.xml" rel="self" />
     <author>
-        <name>http://tyrellsys.github.com/pear</name>
+        <name>http://pear.tyrellsys.com</name>
     </author>
 
 
