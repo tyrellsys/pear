@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
+    <p xlink:href="/rest/p/tyrell_sniffs">Tyrell_Sniffs</p>
+    <c>pear.tyrellsys.com</c>
+    <v>0.9.1</v>
+    <st>alpha</st>
+    <l>PHP</l>
+    <m>kaz</m>
+    <s>Tyrell codesniffer</s>
+    <d>a standard style for Tyrellsys.com</d>
+    <da>2014-02-04 18:13:03</da>
+    <n>
+it's alpha relase. we haven't reached any agreement of the coding styell which's gonna be used in here.
+ </n>
+    <f>22162</f>
+    <g>http://pear.tyrellsys.com/get/Tyrell_Sniffs-0.9.1</g>
+    <x xlink:href="package.0.9.1.xml"/>
+</r>
