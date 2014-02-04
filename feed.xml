@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://pear.tyrellsys.com</id>
-    <updated>2013-02-26T16:44:53+09:00</updated>
+    <updated>2014-02-04T18:54:01+09:00</updated>
     <title>TyrellSystems PEAR channel Latest Releases</title>
     <link href="http://pear.tyrellsys.com/feed.xml" rel="self" />
     <author>
@@ -9,6 +9,20 @@
     </author>
 
     <entry>
+        <title>Tyrell_Sniffs 0.9.1 (alpha)</title>
+        <link href="http://pear.tyrellsys.com/get/Tyrell_Sniffs-0.9.1.tgz" />
+        <id>http://pear.tyrellsys.com/get/Tyrell_Sniffs-0.9.1.tgz</id>
+        <author>
+            <name>kaz</name>
+        </author>
+        <updated>2014-02-04T18:13:03+09:00</updated>
+        <content>
+            a standard style for Tyrellsys.com
+            
+it's alpha relase. we haven't reached any agreement of the coding styell which's gonna be used in here.
+ 
+        </content>
+    </entry>    <entry>
         <title>Tyrell_Sniffs 0.9.0 (alpha)</title>
         <link href="http://pear.tyrellsys.com/get/Tyrell_Sniffs-0.9.0.tgz" />
         <id>http://pear.tyrellsys.com/get/Tyrell_Sniffs-0.9.0.tgz</id>
@@ -17,6 +31,7 @@
         </author>
         <updated>2013-02-26T07:42:56+09:00</updated>
         <content>
+            a standard style for Tyrellsys.com
             
 it's alpha relase. we haven't reached any agreement of the coding styell which's gonna be used in here.
  
