@@ -1,6 +1,32 @@
 {
     "pear-tyrellsys\/Tyrell_Sniffs": {
         "versions": {
+            "0.9.2": {
+                "name": "pear-tyrellsys\/Tyrell_Sniffs",
+                "description": "Tyrell codesniffer",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/pear.tyrellsys.com\/get\/Tyrell_Sniffs-0.9.2.tgz"
+                },
+                "version": "0.9.2",
+                "time": "2015-03-12T07:48:46+09:00",
+                "require": {
+                    "php": ">=5"
+                },
+                "authors": [
+                    {
+                        "name": "Kazuhiko Hotta",
+                        "email": "k-hotta@tyrellsys.com",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": [
+                        "ruleset.xml",
+                        "Sniffs"
+                    ]
+                }
+            },
             "0.9.1": {
                 "name": "pear-tyrellsys\/Tyrell_Sniffs",
                 "description": "Tyrell codesniffer",

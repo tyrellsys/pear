@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.5" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Tyrell_Sniffs</name>
+ <channel>pear.tyrellsys.com</channel>
+ <summary>Tyrell codesniffer</summary>
+ <description>a standard style for Tyrellsys.com</description>
+ <lead>
+  <name>Kazuhiko Hotta</name>
+  <user>kaz</user>
+  <email>k-hotta@tyrellsys.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2015-03-12</date>
+ <time>07:48:46</time>
+ <version>
+  <release>0.9.2</release>
+  <api>0.9.2</api>
+ </version>
+ <stability>
+  <release>alpha</release>
+  <api>alpha</api>
+ </stability>
+ <license uri="http://www.php.net/license/">PHP</license>
+ <notes>
+it&apos;s alpha relase. we haven&apos;t reached any agreement of the coding styell which&apos;s gonna be used in here.
+ </notes>
+ <contents>
+  <dir baseinstalldir="PHP/CodeSniffer/Standards/Tyrell" name="/">
+   <file baseinstalldir="PHP/CodeSniffer/Standards/Tyrell" md5sum="a829ff71d6308ffa8a1728ad8474ed8a" name="ruleset.xml" role="php" />
+   <file baseinstalldir="PHP/CodeSniffer/Standards/Tyrell" md5sum="9530357d42079d7a5c4c2d77241a4b44" name="Sniffs/Commenting/FunctionCommentSniff.php" role="php" />
+   <file baseinstalldir="PHP/CodeSniffer/Standards/Tyrell" md5sum="5523b0b1da31bde0ad474027b18a8257" name="Sniffs/Commenting/FunctionCommentThrowTagSniff.php" role="php" />
+   <file baseinstalldir="PHP/CodeSniffer/Standards/Tyrell" md5sum="a51a714059e590d2587a2e823cc34e5f" name="Sniffs/Formatting/OneClassPerUseSniff.php" role="php" />
+   <file baseinstalldir="PHP/CodeSniffer/Standards/Tyrell" md5sum="20593d917da3a0e043c5caec3a1f9884" name="Sniffs/Formatting/UseInAlphabeticalOrderSniff.php" role="php" />
+   <file baseinstalldir="PHP/CodeSniffer/Standards/Tyrell" md5sum="100e9a523928f08a52ff9f6590ec8598" name="Sniffs/NamingConventions/ValidFunctionNameSniff.php" role="php" />
+   <file baseinstalldir="PHP/CodeSniffer/Standards/Tyrell" md5sum="796e16d44cd069fe6c055b513fbf16ef" name="Sniffs/NamingConventions/ValidNamespaceNameSniff.php" role="php" />
+   <file baseinstalldir="PHP/CodeSniffer/Standards/Tyrell" md5sum="ef117a2e0b3b0571c157c03aaa5ec11f" name="Sniffs/NamingConventions/ValidTraitNameSniff.php" role="php" />
+   <file baseinstalldir="PHP/CodeSniffer/Standards/Tyrell" md5sum="85b3a935f648efcfccafe870e62152f6" name="Sniffs/NamingConventions/ValidVariableNameSniff.php" role="php" />
+   <file baseinstalldir="PHP/CodeSniffer/Standards/Tyrell" md5sum="9b72ab441eddf89a136af6fc5dce533b" name="Sniffs/Strings/ConcatenationSpacingSniff.php" role="php" />
+   <file baseinstalldir="PHP/CodeSniffer/Standards/Tyrell" md5sum="edd4efc408a1000d4dfd33dcf29de8ba" name="Sniffs/WhiteSpace/FunctionClosingBraceSpaceSniff.php" role="php" />
+   <file baseinstalldir="PHP/CodeSniffer/Standards/Tyrell" md5sum="0ecfeeb435c89f54f1af41f7ff33a142" name="Sniffs/WhiteSpace/FunctionOpeningBraceSpaceSniff.php" role="php" />
+   <file baseinstalldir="PHP/CodeSniffer/Standards/Tyrell" md5sum="1030e12a49c271cfc730de1b7ff7457e" name="Sniffs/WhiteSpace/FunctionSpacingSniff.php" role="php" />
+   <file baseinstalldir="PHP/CodeSniffer/Standards/Tyrell" md5sum="d482c9f6b3329e7cf7680ba65ec46b9c" name="Sniffs/WhiteSpace/ObjectOperatorSpacingSniff.php" role="php" />
+   <file baseinstalldir="PHP/CodeSniffer/Standards/Tyrell" md5sum="3486c992e41bc1b852b03a15fb896785" name="Sniffs/WhiteSpace/OperatorSpacingSniff.php" role="php" />
+   <file baseinstalldir="PHP/CodeSniffer/Standards/Tyrell" md5sum="a94e73d848ba49a3ca4e19f4579a3907" name="Sniffs/WhiteSpace/TabAndSpaceSniff.php" role="php" />
+   <file baseinstalldir="PHP/CodeSniffer/Standards/Tyrell" md5sum="6e8629301d8e9c7965197236115e3118" name="tests/CakePHPStandardTest.php" role="test" />
+   <file baseinstalldir="PHP/CodeSniffer/Standards/Tyrell" md5sum="9dba097c53ff8721adcb3a98385dc277" name="tests/CakePHPStandardTest_pass.php" role="test" />
+   <file baseinstalldir="PHP/CodeSniffer/Standards/Tyrell" md5sum="c474dae2c5c46b6c2442a7d2248445ca" name="tests/files/CakePHP/SniffTest/BadNs.php" role="test" />
+   <file baseinstalldir="PHP/CodeSniffer/Standards/Tyrell" md5sum="47df7b3398c2bfb6ddfa2d353f839650" name="tests/files/CakePHP/SniffTest/BlockNs_pass.php" role="test" />
+   <file baseinstalldir="PHP/CodeSniffer/Standards/Tyrell" md5sum="44f53be3b1f697dc2336ee075e3e95c4" name="tests/files/CakePHP/SniffTest/TestFile_pass.php" role="test" />
+   <file baseinstalldir="PHP/CodeSniffer/Standards/Tyrell" md5sum="c926382c3766dc44a48afc80910475f4" name="tests/files/CakePHP/throws_pass.php" role="test" />
+   <file baseinstalldir="PHP/CodeSniffer/Standards/Tyrell" md5sum="57dbb6f8586a3ee96732630550234840" name="tests/files/bad_block_comment.php" role="test" />
+   <file baseinstalldir="PHP/CodeSniffer/Standards/Tyrell" md5sum="0d8f1dad205da2059051cbc71003e2a8" name="tests/files/bad_block_comment_no_blockcomments.php" role="test" />
+   <file baseinstalldir="PHP/CodeSniffer/Standards/Tyrell" md5sum="2f7417090b76baa15c1cf616302d2fe1" name="tests/files/bad_trait_name.php" role="test" />
+   <file baseinstalldir="PHP/CodeSniffer/Standards/Tyrell" md5sum="a1290ed97ea36d65cfd8f95dfe23b798" name="tests/files/block_comment_indend_pass.php" role="test" />
+   <file baseinstalldir="PHP/CodeSniffer/Standards/Tyrell" md5sum="40a27d2d5b0f3fed0e849eeb331f1b44" name="tests/files/block_comment_pass.php" role="test" />
+   <file baseinstalldir="PHP/CodeSniffer/Standards/Tyrell" md5sum="1b2eb8cb3f25e77b0be936cd4f8ea6e8" name="tests/files/double_space_pass.php" role="test" />
+   <file baseinstalldir="PHP/CodeSniffer/Standards/Tyrell" md5sum="8fc62845023e22f8938fb76a64cd019e" name="tests/files/mixing_indent_pass.php" role="test" />
+   <file baseinstalldir="PHP/CodeSniffer/Standards/Tyrell" md5sum="03d3d7a9408c54627240a83444e3321a" name="tests/files/multiple_use.php" role="test" />
+   <file baseinstalldir="PHP/CodeSniffer/Standards/Tyrell" md5sum="34a7940b2860d3ae94a1d439402712ed" name="tests/files/multiple_use_pass.php" role="test" />
+   <file baseinstalldir="PHP/CodeSniffer/Standards/Tyrell" md5sum="94bb7be68af38f1dc14748f42e180973" name="tests/files/operator_spacing_pass.php" role="test" />
+   <file baseinstalldir="PHP/CodeSniffer/Standards/Tyrell" md5sum="660d4103269b31b15e9ea1d7fccab227" name="tests/files/space_indented_pass.php" role="test" />
+   <file baseinstalldir="PHP/CodeSniffer/Standards/Tyrell" md5sum="e04e05d025ce34fe92e2a247ffbcd821" name="tests/files/space_tab_pass.php" role="test" />
+   <file baseinstalldir="PHP/CodeSniffer/Standards/Tyrell" md5sum="73b4b8cf7a713ce48061f0e15eaf6c68" name="tests/files/tab_indented_pass.php" role="test" />
+   <file baseinstalldir="PHP/CodeSniffer/Standards/Tyrell" md5sum="add730fdc3e0bc0cb3e4baa5d10a81c8" name="tests/files/tab_space_pass.php" role="test" />
+   <file baseinstalldir="PHP/CodeSniffer/Standards/Tyrell" md5sum="ea613c9af3b803516c7e884d9b6eb6c4" name="tests/files/traits_no_order.php" role="test" />
+   <file baseinstalldir="PHP/CodeSniffer/Standards/Tyrell" md5sum="833309f550b2d77ccf3c361f70661e6f" name="tests/files/traits_pass.php" role="test" />
+   <file baseinstalldir="PHP/CodeSniffer/Standards/Tyrell" md5sum="cd3d55c774ffa5d4ad615cec06afda00" name="tests/files/use_no_order.php" role="test" />
+   <file baseinstalldir="PHP/CodeSniffer/Standards/Tyrell" md5sum="2ff821b28e43143111f16d6b39567f89" name="tests/files/use_ok_pass.php" role="test" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.0</min>
+   </pearinstaller>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>1.0</release>
+    <api>1.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2013-02-25</date>
+   <license uri="http://www.php.net/license/">PHP</license>
+   <notes>
+it&apos;s on purpose in-house use.
+   </notes>
+  </release>
+ </changelog>
+</package>

@@ -3,6 +3,11 @@
     <p>Tyrell_Sniffs</p>
     <c>pear.tyrellsys.com</c>
     <r>
+        <v>0.9.2</v>
+        <s>alpha</s>
+        <m>5</m>
+    </r>
+    <r>
         <v>0.9.1</v>
         <s>alpha</s>
         <m>5</m>
